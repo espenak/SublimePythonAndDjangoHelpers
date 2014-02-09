@@ -34,6 +34,24 @@ pprint(${1})
 Great for debugging.
 
 
+### blockprint
+Expands to:
+
+```python
+print
+print
+print '='*70
+print
+print ${1}
+print
+print '='*70
+print
+print
+```
+
+Great for debugging print within verbose output.
+
+
 ### import_reverse
 Expands to:
 ```python

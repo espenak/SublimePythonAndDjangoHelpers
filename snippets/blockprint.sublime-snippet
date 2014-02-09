@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[print
+print
+print '='*70
+print
+print ${1}
+print
+print '='*70
+print
+print
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>blockprint</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.python</scope>
+	<description>Print with lines above and below. Perfect for debugging in verbose output.</description>
+</snippet>
